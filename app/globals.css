@@ -45,3 +45,13 @@ body {
   }
 }
 
+@media (max-width: 678px) {
+  .border-b-myGreen {
+    border-bottom-color: #00ff00; /* Replace this with the actual color */
+  }
+
+  .border-b-2px {
+    border-bottom-width: 2px;
+  }
+}
+
