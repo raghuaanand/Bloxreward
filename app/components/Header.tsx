@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function Header(){
     return(
-            <div className="h-[62px] md:h-[113px] mb-[25px] mx-[10px] md:mx-16 bg-white flex justify-between px-[16px] md:px-[100px] items-center rounded-lg">
+            <div className="h-[62px] md:h-[113px] mb-[25px] mx-[10px] md:mx-16 bg-white flex justify-between px-[16px] md:px-[100px] items-center rounded-lg md:fixed top-[5%] md:w-[1830px] md:z-50">
                 <Image 
                     src="/logo.png" 
                     width={154} 
