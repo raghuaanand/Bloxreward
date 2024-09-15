@@ -4,7 +4,9 @@ export default function(){
     return(
         <div className="p-[20px] md:p-0 md:flex md:justify-between md:items-center md:h-[1006px]">
             <div className="">
-                <h1 className="font-[900] text-[44.55px] font-rubik leading-[44.55px]">GET <span className="text-myGreen underline pr-10">FREE</span> <span className="text-myGreen underline block">ROBUX</span> ANYTIME ANYWHERE!</h1>
+                <h1 className="font-bold text-[44.55px] font-rubik leading-[44.55px]">
+                    GET <span className="text-myGreen pr-10 underline decoration-[2px]">FREE</span> <span className="text-myGreen block underline decoration-[2px]">ROBUX</span> ANYTIME ANYWHERE!
+                </h1>
                 <p className="font-rubik font-normal text-[13.2px] leading-[17.95px py-3 pr-3">Earn Robux effortlessly by completing simple tasks and surveys. No more begging parents for Robux—start earning today!</p>
                 <Button  buttonText={"GET ME STARTED!"} width= {"10rem"}/>
             </div>

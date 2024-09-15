@@ -1,9 +1,4 @@
-import {
-    Accordion,
-    AccordionContent,
-    AccordionItem,
-    AccordionTrigger,
-} from "@/components/ui/accordion"
+import FaqList from "./FaqList"
 
 export default function FAQ() {
     return (
@@ -13,15 +8,7 @@ export default function FAQ() {
             <p className="text-center font-[500] text-[12.1px] px-2 padding-[16.46px] opacity-75">We’re here to help! Here are some of the most common questions about BloxReward. If you don’t see your question here, feel free to reach out to us anytime.</p>
 
             <div>
-                <Accordion type="single" collapsible>
-                    <AccordionItem value="item-1">
-                        <AccordionTrigger>Is it accessible?</AccordionTrigger>
-                        <AccordionContent>
-                            Yes. It adheres to the WAI-ARIA design pattern.
-                        </AccordionContent>
-                    </AccordionItem>
-                </Accordion>
-
+                <FaqList />
             </div>
         </div>
 
