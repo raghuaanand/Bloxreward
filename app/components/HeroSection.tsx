@@ -9,7 +9,7 @@ export default function(){
                 </h1>
                 <p className="font-rubik font-normal text-[13.2px] md:text-[24px] md:leading-[32.64px] leading-[17.95px] py-3 pr-3 text-[#161c18] opacity-75 md:w-[912px]">Earn Robux effortlessly by completing simple tasks and surveys. No more begging parents for Robux—start earning today!</p>
 
-                <button className=" bg-myGreen h-[33px] md:h-[56px] w-[10rem] md:w-[292px] font-[900] text-center flex items-center justify-center rounded-lg py-[9px] px-[15px] text-[13px] md:text-[22px] md:font-extrabold text-white font-rubik shadow-[0px_4px_0px_0px_rgba(33,149,66,1),0px_2px_1px_0px_rgba(255,255,255,0.24)_inset,0px_-2px_1px_0px_rgba(0,0,0,0.24)_inset]" >
+                <button className=" bg-myGreen h-[33px] md:h-[56px] w-[10rem] md:w-[292px] font-[900] text-center flex items-center justify-center rounded-lg py-[9px] px-[15px] text-[13px] md:text-[22px] md:font-extrabold text-white font-rubik shadow-[0px_4px_0px_0px_rgba(33,149,66,1),0px_2px_1px_0px_rgba(255,255,255,0.24)_inset,0px_-2px_1px_0px_rgba(0,0,0,0.24)_inset] transition-colors duration-300 hover:bg-green-400 " >
                 GET ME STARTED!
                 </button>
             </div>
@@ -21,7 +21,7 @@ export default function(){
                     className="w-screen md:h-[1034px] md:w-[1034px]" 
                     alt="hero"/>
             </div>
-            <div className="md:h-[13500px] md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[553%] rounded-full border-myGreen border-[5px] border-[3px] absolute md:top-[91%] md:-right-[300%] bg-bgColor">
+            <div className="md:h-[13500px] md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen border-[5px] border-[3px] absolute md:top-[91%] md:-right-[300%] bg-bgColor">
 
             </div>
         </div>

@@ -17,19 +17,19 @@ const cards: Card[] = [
         id: 1,
         title: 'Getting Started',
         description: 'Register by entering your Roblox username, with no passwords needed!',
-        logo: <MdManageAccounts className="text-white h-[22.5px] w-[20.7px] " />  
+        logo: <MdManageAccounts className="text-white h-[22.5px] md:h-[36px] md:w-[36px] w-[20.7px]" />  
     },
     {
         id: 2,
         title: 'Complete Tasks',
         description: 'Finish easy tasks and surveys from anywhere—on your phone, tablet, or computer to earn robux.',
-        logo: <FaClipboardList className="text-white h-[22.5px] w-[20.7px] "/>  
+        logo: <FaClipboardList className="text-white h-[22.5px] md:h-[36px] md:w-[36px] w-[20.7px] "/>  
     },
     {
         id: 3,
         title: 'Instantly Withdraw',
         description: 'Cash out your earnings instantly as Robux, cryptocurrency, and much more!',
-        logo: <IoWallet className="text-white h-[22.5px] w-[20.7px] "/>   
+        logo: <IoWallet className="text-white h-[22.5px] md:h-[36px] md:w-[36px] w-[20.7px] "/>   
     }
 ];
 
