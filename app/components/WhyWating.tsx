@@ -11,7 +11,7 @@ export default function WhyWating() {
                         WHAT ARE YOU WAITING FOR?
                     </h1>
                     <p className="text-white text-[16.2px] leading-[18.63px] md:text-[31px] md:leading-[35.65px] font-[600] w-[261.32px] md:w-[762px] ">Starting earning free Robux effortlessly by completing simple tasks and surveys today!</p>
-                    <button className=" bg-white h-[33px] md:h-[56px] w-[121px] md:w-[340px] font-[900] text-center flex items-center justify-center rounded-lg py-[9px] px-[15px] text-[13px] md:text-[22px] md:font-extrabold text-myGreen font-rubik shadow-[0px_4px_0px_0px_rgba(33,149,66,1),0px_2px_1px_0px_rgba(255,255,255,0.24)_inset,0px_-2px_1px_0px_rgba(0,0,0,0.24)_inset] transition-colors duration-300 hover:bg-gray-200" >
+                    <button className=" bg-white h-[33px] md:h-[56px] w-[178px] md:w-[340px] font-[900] text-center flex items-center justify-center rounded-lg py-[9px] px-[15px] text-[13px] md:text-[22px] md:font-extrabold text-myGreen font-rubik shadow-[0px_4px_0px_0px_rgba(33,149,66,1),0px_2px_1px_0px_rgba(255,255,255,0.24)_inset,0px_-2px_1px_0px_rgba(0,0,0,0.24)_inset] transition-colors duration-300 hover:bg-gray-200" >
                     GET STARTED TODAY!
                     </button>
                 </div>

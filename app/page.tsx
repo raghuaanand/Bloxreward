@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavbarMobile from "./components/NavbarMobile";
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
@@ -32,7 +31,7 @@ export default function Home() {
           </div>
           <WhyWating />
           <Footer />
-          {/* <NavbarMobile /> */}
+          <NavbarMobile />
         </div>
     </div>
   );

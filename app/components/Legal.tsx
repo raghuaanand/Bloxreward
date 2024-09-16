@@ -1,4 +1,5 @@
-import { Span } from "next/dist/trace";
+/* eslint-disable */
+
 import Image from "next/image";
 
 export default function Legal() {
@@ -16,10 +17,10 @@ export default function Legal() {
                     We know you might be wondering if BloxReward is the real deal. Let us explain how it works!
                 </p>
                 <p className="text-[12.1px] md:text-[22px] md:leading-[29.92px] opacity-95 leading-[16.46px] pb-7">
-                    At BloxReward, we partner with reputable companies that want to hear your opinions and engage with you through tasks and surveys. These companies pay us for your participation, and we share a big portion of that with you as Robux. That’s how we can afford to give you Robux for free!
+                    At BloxReward, we partner with reputable companies that want to hear your opinions and engage with you through tasks and surveys. These companies pay us for your participation, and we share a big portion of that with you as Robux. That is how we can afford to give you Robux for free!
                 </p>
                 <p className="text-[12.1px] md:text-[22px] md:leading-[29.92px] opacity-95 leading-[16.46px] pb-7">
-                    Every task you complete and every survey you fill out helps these companies improve their products and services, and in return, you get to earn Robux. It’s a win-win!
+                    Every task you complete and every survey you fill out helps these companies improve their products and services, and in return, you get to earn Robux. Its a win-win!
                 </p>
             </div>
             <div className="md:absolute md:right-[0%] md:-bottom-[10%] ">

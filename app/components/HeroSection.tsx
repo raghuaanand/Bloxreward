@@ -1,5 +1,5 @@
 import Image from "next/image";
-export default function(){
+export default function HeroSection(){
     return(
         <div className="relative p-[20px] md:p-0 md:flex md:justify-between md:items-center md:h-[1006px] overflow-hidden">
             <div className="md:pl-40">
@@ -12,13 +12,21 @@ export default function(){
                 GET ME STARTED!
                 </button>
             </div>
-            <div className="w-screen md:w-[30%]">
+            <div className="relative w-screen md:w-[30%]">
                 <Image 
                     src="/animated.png"  
                     width={544.95} 
                     height={543.81} 
                     className="w-screen md:h-[1034px] md:w-[1034px]" 
                     alt="hero"/>
+                {/* <div>
+                    <Image 
+                        src="/hero_v1.svg"  
+                        width={544.95} 
+                        height={543.81} 
+                        className="w-screen md:h-[1455px] md:w-[1407px] custom-svg" 
+                        alt="vector 1"/>
+                </div> */}
             </div>
             <div className="md:h-[13500px] md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen md:border-[5px] border-[3px] absolute md:top-[91%] md:-right-[300%] bg-bgColor">
 

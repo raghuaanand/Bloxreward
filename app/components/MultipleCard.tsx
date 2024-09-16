@@ -1,5 +1,4 @@
 import cards from "@/constants/cards";
-import Button from "./Button";
 
 export default function MultipleCard() {
     return (

@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -9,13 +9,14 @@ body {
   height: 100%;
 }
 
+html, body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
 @layer base {
-  :root {
-    
-  }
+
   
   body {
-    
+    font-family: 'Rubik Mono One', sans-serif;
   }
   .dark {
     --background: 240 10% 3.9%;
@@ -44,7 +45,9 @@ body {
     --chart-5: 340 75% 55%;
   }
 }
-
+.custom-svg {
+  fill: rgb(117, 192, 117);  /* Change to your desired color */
+}
 @media (max-width: 678px) {
   .border-b-myGreen {
     border-bottom-color: #00ff00; /* Replace this with the actual color */

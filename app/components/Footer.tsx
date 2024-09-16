@@ -5,7 +5,7 @@ import { FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
     return (
-        <div className="bg-bgColor flex flex-col px-6 gap-5 pb-8 ">
+        <div className="bg-bgColor flex flex-col px-6 gap-5 md:pb-8 pb-20">
             <div className="md:flex md:justify-between md:px-20 md:border-b-myGreen md:border-b-[3px]">
                 <div className="flex flex-col gap-5">
                     <div>

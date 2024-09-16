@@ -28,7 +28,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
-  }, []);
+  });
   const [start, setStart] = useState(false);
   function addAnimation() {
     if (containerRef.current && scrollerRef.current) {
@@ -88,7 +88,7 @@ export const InfiniteMovingCards = ({
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
       >
-        {items.map((item, idx) => (
+        {items.map((item ) => (
           <li
             className="w-[200px] h-[62px] md:h-[114px] rounded-[5px] flex-shrink-0  md:w-[316px] bg-white"
             key={item.id}
