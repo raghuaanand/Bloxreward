@@ -21,7 +21,7 @@ export default function(){
                     className="w-screen md:h-[1034px] md:w-[1034px]" 
                     alt="hero"/>
             </div>
-            <div className="md:h-[13500px] md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen border-[5px] border-[3px] absolute md:top-[91%] md:-right-[300%] bg-bgColor">
+            <div className="md:h-[13500px] md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen md:border-[5px] border-[3px] absolute md:top-[91%] md:-right-[300%] bg-bgColor">
 
             </div>
         </div>
