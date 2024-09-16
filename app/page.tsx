@@ -15,8 +15,8 @@ import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen bg-[#f3f0f0ef] pt-[25px]">
-      <div className="absolute inset-0 bg-my_bg bg-cover bg-center opacity-5 z-0 pointer-events-none"></div>
+    <div className="relative min-h-screen bg-[#f3f0f0ef] pt-[25px] md:overflow-hidden">
+      <div className="absolute inset-0 bg-[url('/br_grid.png')] bg-[length:400px_400px] md:bg-[length:1000px_1000px] md:opacity-[0.03]   bg-center opacity-5 z-0 pointer-events-none"></div>
         <div className="relative z-10">
           <Header />
           <HeroSection />

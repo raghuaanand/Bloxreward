@@ -45,6 +45,13 @@ module.exports = {
     			'accordion-up': 'accordion-up 0.2s ease-out',
 				'scroll': 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite'
     		},
+			backgroundImage: {
+				'custom-gradient': `
+				  linear-gradient(93.98deg, #29B851 0.14%, #25A44C 99.86%),
+				  linear-gradient(0deg, rgba(255, 255, 255, 0.62), rgba(255, 255, 255, 0.62)),
+				  radial-gradient(100% 100% at 0% 0%, #25AD4B 0%, rgba(37, 173, 75, 0) 100%),
+				  radial-gradient(81.71% 114.05% at 100% 100%, #91FFB0 0%, rgba(255, 255, 255, 0) 100%)`
+			  },
     	}
     },
 	plugins: [addVariablesForColors],

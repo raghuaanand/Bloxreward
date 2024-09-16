@@ -10,7 +10,7 @@ export default function FAQ() {
                 <p className="text-center font-[500] text-[12.1px] px-2 padding-[16.46px] opacity-75 md:text-[22px] md:leading-[29.92px] md:w-[1217px] ">We’re here to help! Here are some of the most common questions about BloxReward. If you don’t see your question here, feel free to reach out to us anytime.</p>
             </div>
 
-            <div className="md:flex md:items-start md:w-screen md:mt-10 md:gap-20 md:mx-20 ">
+            <div className="md:flex md:items-start md:w-screen md:mt-10 md:gap-20 md:mx-20 md:overflow-hidden">
                 <FaqList />
                 <div className="hidden  md:flex md:justify-center md:items-start ">
                     <HowToVideo />
