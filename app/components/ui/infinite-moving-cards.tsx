@@ -76,7 +76,7 @@ export const InfiniteMovingCards = ({
     <div
       ref={containerRef}
       className={cn(
-        "scroller relative z-20  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
+        "scroller relative z-20 md:max-w-full  max-w-7xl overflow-hidden  [mask-image:linear-gradient(to_right,transparent,white_20%,white_80%,transparent)]",
         className
       )}
     >
@@ -90,18 +90,18 @@ export const InfiniteMovingCards = ({
       >
         {items.map((item, idx) => (
           <li
-            className="w-[200px] h-[62px] rounded-[5px] flex-shrink-0  md:w-[450px] bg-white"
+            className="w-[200px] h-[62px] md:h-[114px] rounded-[5px] flex-shrink-0  md:w-[316px] bg-white"
             key={item.id}
           >
               <div className="flex items-center justify-center py-[8.25px] px-[16.5px] gap-3">
                 <div>
-                    <Image src={item.image} width={46.2} height={46.2} alt="image"  className="relative z-20 text-sm leading-[1.6] text-gray-100 font-normal"/>
+                    <Image src={item.image} width={46.2} height={46.2} alt="image"  className="relative z-20 text-sm leading-[1.6] md:w-[84px] md:h-[84px] text-gray-100 font-normal"/>
                 </div>
                 <div className="flex flex-col items-center">
-                    <p className=" text-[12.1px] leading-[16.46px] text-[#161c18] font-rubik font-semibold">
+                    <p className=" text-[12.1px] leading-[16.46px] md:text-[22px] md:leading-[29.92px] text-[#161c18] font-rubik font-semibold">
                         {item.username}
                     </p>
-                    <p className=" text-sm leading-[1.6] text-gray-400 font-normal">
+                    <p className=" text-sm md:text-[16px] md:leading-[21.76px] leading-[1.6] text-gray-400 font-normal">
                         {item.earned}
                         <span className="text-myGreen">
                             {item.money}
