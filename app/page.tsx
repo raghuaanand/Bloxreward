@@ -27,7 +27,9 @@ export default function Home() {
           <Partners />
           <Legal />
           <FAQ />
-          <HowToVideo />
+          <div className="md:hidden md:overflow-hidden">
+            <HowToVideo />
+          </div>
           <WhyWating />
           <Footer />
           {/* <NavbarMobile /> */}
