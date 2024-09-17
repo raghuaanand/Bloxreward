@@ -1,4 +1,3 @@
-import HeroV3 from "@/public/hero_v3";
 import Image from "next/image";
 export default function HeroSection() {
     return (
