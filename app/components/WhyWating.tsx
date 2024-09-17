@@ -17,7 +17,7 @@ export default function WhyWating() {
                 </div>
                 <div className=" w-full h-[150px] flex items-center justify-center mt-auto">
                 <Image
-                        src={'/animated.png'}
+                        src={'/hero_character.svg'}
                         alt="animated logo"
                         height={492.8}
                         width={492.8}

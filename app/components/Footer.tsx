@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="md:flex md:justify-between md:px-20 md:border-b-myGreen md:border-b-[3px]">
                 <div className="flex flex-col gap-5">
                     <div>
-                        <Image src={'/footer_logo.png'} alt="footer logo" width={309} height={56} className="md:w-[630px] md:h-[94px] "/>
+                        <Image src={'/logo.svg'} alt="footer logo" width={309} height={56} className="md:w-[630px] md:h-[94px] "/>
                     </div>
                     <div className="flex gap-5">
                         <div className="w-[33.5px] md:h-[61px] md:w-[61px] h-[33.5px] rounded-lg bg-green-100 flex items-center justify-center">

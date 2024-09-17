@@ -19,7 +19,7 @@ const testimonials = [
   {
     id: 1,
     image:
-      "/sliding_img.png",
+      "/user1.svg",
     username: "rag****and",
     earned: "Just earned ",
     money: "$15"
@@ -27,14 +27,14 @@ const testimonials = [
   {
     id: 1,
     image:
-      "/sliding_img2.png",
+      "/user2.svg",
     username: "rag****and",
     earned: "Just earned ",
     money: "$09"
   },
   {
     id: 1,
-    image: "/sliding_img.png",
+    image: "/user3.svg",
     username: "rag****and",
     earned: "Just earned ",
     money: "$11"
@@ -42,7 +42,7 @@ const testimonials = [
   {
     id: 1,
     image:
-      "/sliding_img2.png ",
+      "/user4.svg",
     username: "rag****and",
     earned: "Just earned ",
     money: "$21"
@@ -50,7 +50,7 @@ const testimonials = [
   {
     id: 1,
     image:
-      "/sliding_img.png",
+      "/user2.svg",
     username: "rag****and",
     earned: "Just earned ",
     money: "$18"

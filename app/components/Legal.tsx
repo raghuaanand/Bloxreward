@@ -24,7 +24,7 @@ export default function Legal() {
                 </p>
             </div>
             <div className="md:absolute md:right-[0%] md:-bottom-[10%] ">
-                <Image src={'/gift.png'} alt="gift" width={347.32} height={342.91} className="md:h-[651px] md:w-[761px] "/>
+                <Image src={'/gift.svg'} alt="gift" width={347.32} height={342.91} className="md:h-[651px] md:w-[761px] "/>
             </div>
         </div>
     )

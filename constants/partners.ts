@@ -9,37 +9,37 @@ const partners: Partner[] = [
         id: 1,
         name: 'Offertoro',
         description: 'Complete fun tasks and offers to earn big!',
-        logo: '/offertoro.png'
+        logo: '/offertoro.svg'
     },
     {
         id: 2,
         name: 'Lootably',
         description: 'Engage in activities and see your Robux grow.',
-        logo: '/lootably.png'
+        logo: '/lootably.svg'
     },
     {
         id: 3,
         name: 'AdGatemedia',
         description: 'Discover easy tasks and watch your earnings pile up.',
-        logo: '/adgatemedia.png'
+        logo: '/adgatemedia.svg'
     },
     {
         id: 4,
         name: 'AyetStudio',
         description: 'Simple surveys and offers to boost your Robux balance.',
-        logo: '/ayetstudio.png'
+        logo: '/ayetstudios.svg'
     },
     {
         id: 5,
         name: 'CPX Research',
         description: 'Your opinions matter—earn Robux for every survey!',
-        logo: '/cpxresearch.png'
+        logo: '/cpxresearch.svg'
     },
     {
         id: 6,
         name: 'BitLabs',
         description: 'Take surveys that reward you instantly.',
-        logo: '/bitlabs.png'
+        logo: '/bitlabs.svg'
     },
 ]
 
