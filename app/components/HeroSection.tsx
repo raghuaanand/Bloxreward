@@ -2,6 +2,7 @@ import Image from "next/image";
 export default function HeroSection() {
     return (
         <div className="relative pt-[8rem]  md:w-screen h-[54rem] flex flex-col md:flex-row  md:p-0 md:flex md:items-center md:h-[1006px] overflow-hidden">
+
             <div className="md:pl-40 h-[35%] md:w-[50%] px-[1.5rem]">
                 <h1 className="font-bold text-[44.55px] md:text-[81px] md:w-[912px] font-rubik leading-[44.55px] md:leading-[81px] md:font-extrabold">
                     GET <span className="text-myGreen pr-10 md:pr-0 underline decoration-[2px]">FREE ROBUX </span> ANYTIME ANYWHERE!
@@ -12,21 +13,15 @@ export default function HeroSection() {
                     GET ME STARTED!
                 </button>
             </div>
-            <div className="relative text-red-900   w-[100%] md:w-[50%] md:h-[1034px] ">
+
+            <div className="relative md:w-[50%] md:h-[1034px] ">
                 <Image
                     src="/hero_character.svg"
                     width={544.95}
                     height={543.81}
-                    className="absolute hidden md:block  md:-top-[1rem] md:h-[64.625rem] w-[34rem] h-[34rem] md:w-[64.626rem] z-30"
+                    className="absolute -top-[1rem] -right-[4rem] z-30 md:block md:-top-[1rem] min-w-[32rem] min-h-[33.9375rem]  md:h-[64.625rem] md:w-[64.626rem] "
                     alt="hero"
                 />
-                {/* <Image
-                    src="/hero_character.svg"
-                    width={544.95}
-                    height={543.81}
-                    className="absolute -top-[20rem] md:hidden h-[64.625rem] w-[64.626rem] z-30"
-                    alt="hero"
-                /> */}
                 <Image
                     src="/hero_v3.svg"
                     alt="vector"
