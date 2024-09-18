@@ -2,8 +2,8 @@ import Image from "next/image"
 import NavBar from "./NavBar"
 export default function Header(){
     return(
-        <div className="md:flex md:justify-center md:items-center">
-            <div className="h-[62px] md:h-[113px] mb-[25px] bg-white flex justify-between px-[16px] md:px-[100px] items-center rounded-lg md:fixed top-[5%] md:w-[90%] md:z-50">
+        <div className="md:flex relative md:justify-center md:items-center">
+            <div className="h-[62px] md:h-[113px] w-screen bg-white flex justify-between px-[16px] md:px-[100px] items-center rounded-lg absolute md:fixed top-[5%] md:w-[90%] md:z-50 z-50">
                 <Image 
                     src="/logo.svg" 
                     width={154} 

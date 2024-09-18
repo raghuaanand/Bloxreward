@@ -1,8 +1,8 @@
 import Image from "next/image";
 export default function HeroSection() {
     return (
-        <div className="relative md:w-screen h-[900px] p-[20px] md:p-0 md:flex md:justify md:items-center md:h-[1006px] overflow-hidden">
-            <div className="md:pl-40 md:w-[50%] ">
+        <div className="relative pt-[8rem]  md:w-screen h-[54rem] flex flex-col md:flex-row  md:p-0 md:flex md:items-center md:h-[1006px] overflow-hidden">
+            <div className="md:pl-40 h-[35%] md:w-[50%] px-[1.5rem]">
                 <h1 className="font-bold text-[44.55px] md:text-[81px] md:w-[912px] font-rubik leading-[44.55px] md:leading-[81px] md:font-extrabold">
                     GET <span className="text-myGreen pr-10 md:pr-0 underline decoration-[2px]">FREE ROBUX </span> ANYTIME ANYWHERE!
                 </h1>
@@ -12,20 +12,27 @@ export default function HeroSection() {
                     GET ME STARTED!
                 </button>
             </div>
-            <div className="relative text-red-900  w-[100%] md:w-[50%] md:h-[1034px] ">
+            <div className="relative text-red-900   w-[100%] md:w-[50%] md:h-[1034px] ">
                 <Image
                     src="/hero_character.svg"
                     width={544.95}
                     height={543.81}
-                    className="absolute md:-top-[1rem] h-[544px] w-[544px] md:h-[64.625rem] md:w-[64.626rem] z-30"
+                    className="absolute hidden md:block  md:-top-[1rem] md:h-[64.625rem] w-[34rem] h-[34rem] md:w-[64.626rem] z-30"
                     alt="hero"
                 />
+                {/* <Image
+                    src="/hero_character.svg"
+                    width={544.95}
+                    height={543.81}
+                    className="absolute -top-[20rem] md:hidden h-[64.625rem] w-[64.626rem] z-30"
+                    alt="hero"
+                /> */}
                 <Image
                     src="/hero_v3.svg"
                     alt="vector"
                     height={1006}
                     width={749}
-                    className="absolute md:left-[20rem] md:-top-[18rem] md:h-[91rem]  md:w-[88rem] z-0"
+                    className="absolute right-[0rem] md:left-[20rem] -top-[1rem] md:-top-[18rem] h-[38rem] md:h-[91rem] w-[37rem] md:w-[88rem] z-0"
                 />
                 <Image
                     src="/hero_v2.svg"
@@ -64,9 +71,13 @@ export default function HeroSection() {
                 />
             </div>
 
-            <div className="md:h-[13500px] bg-center md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen md:border-[5px] border-[3px] absolute md:top-[85%] md:-right-[300%] bg-bgColor z-30">
+            <div className="absolute -bottom-[5rem] w-screen h-[8rem] bg-bgColor border-t-myGreen border-t-[3px] z-30">
 
             </div>
+
+            {/* <div className="md:h-[13500px] bg-center md:w-[13500px] w-[5000px] h-[5000px] top-[96%] -right-[625%] rounded-full border-myGreen md:border-[5px] border-[3px] absolute md:top-[85%] md:-right-[300%] bg-bgColor z-30">
+
+            </div> */}
         </div>
     )
 }

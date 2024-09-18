@@ -53,25 +53,28 @@ const FaqList = () => {
       <FaqItem
         question="How does BloxReward work?"
         answer="You can earn Robux and cryptocurrency by completing tasks and offers from our trusted partners. Choose from surveys, quizzes, downloading apps, and more to start earning rewards!"
-        icon="/faq_question.png"
+        icon="/faq_question.svg"
       />
       <FaqItem
         question="Is BloxReward safe to use?"
         answer="Yes, BloxReward is safe. We partner with trusted advertisers to ensure a secure experience."
-        icon="/faq_secure.png"
+        icon="/faq_secure.svg"
       />
       <FaqItem
         question="How do I receive my Robux?"
         answer="Once you complete a task, your Robux or other rewards will be sent to your account instantly or within a set time frame depending on the task."
-        icon="/faq_robux.png"
+        icon="/faq_robux.svg"
       />
       <FaqItem
         question="How does BloxReward make money?"
         answer="BloxReward earns money through partnerships with advertisers and offer providers. We share a portion of that revenue with users who complete tasks."
-        icon="/faq_money.png"
+        icon="/faq_money.svg"
       />
     </div>
   );
 };
 
 export default FaqList;
+
+
+
