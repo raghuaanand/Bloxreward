@@ -21,7 +21,7 @@ const FaqItem = ({ question, answer, icon }: { question: string, answer: string,
   }, [isOpen]);
 
   return (
-    <div className="border-b-2 border-gray-200 md:w-[896px]">
+    <div className="border-b-2  border-gray-200 md:w-[896px]">
       <button
         className="flex  md:h-[89px] items-center justify-between w-full py-4 px-4 text-left focus:outline-none"
         onClick={toggleFaq}

@@ -15,7 +15,7 @@ export default function FAQ() {
 
             </div>
 
-            <div className="md:flex md:items-start md:w-screen md:mt-10 md:gap-20 md:mx-20 md:overflow-hidden">
+            <div className="md:flex md:items-start md:w-screen md:mt-10 md:gap-20 md:px-[8rem] md:overflow-hidden">
                 <FaqList />
                 <div className="hidden  md:flex md:justify-center md:items-start ">
                     <HowToVideo />

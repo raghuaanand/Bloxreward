@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Legal() {
     return (
         <div className="relative bg-myGreen text-white font-rubik px-6 pt-16 md:flex overflow-hidden md:h-[680px]">
-            <div className="absolute inset-0 bg-[url('/legal_vector.png')]  bg-cover bg-center md:bg-right opacity-90 z-0 pointer-events-none"></div>
-            <div className="md:w-[803px] md:pl-20 md:pt-16">
+            <div className="absolute inset-0 bg-[url('/legal_vector.svg')] md:h-full md:left-[30%] md:top-[0rem] bg-cover bg-center md:bg-right opacity-90 z-0 pointer-events-none"></div>
+            <div className="md:w-[803px] md:pl-[8rem] md:pt-16">
                 <p className="font-[700] text-[14.3px] leading-[14.3px] pb-3 md:text-[26px] md:leading-[26px] ">ARE WE LEGIT?</p>
 
                 <h1 className="font-[800] text-[29.7px] leading-[29.7px] pb-7 md:text-[54px] md:leading-[54px] ">
