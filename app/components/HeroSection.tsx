@@ -2,8 +2,10 @@ import Image from "next/image";
 export default function HeroSection() {
     return (
         <div className="relative pt-[8rem]  md:w-screen h-[54rem] flex flex-col md:flex-row  md:p-0 md:flex md:items-center md:h-[1006px] overflow-hidden">
+            <div className="bg-[url('/bg_grid.svg')] absolute w-full h-full opacity-20 bg-green-100 z-0">
 
-            <div className="md:pl-40 h-[35%] md:w-[50%] px-[1.5rem]">
+            </div>
+            <div className="md:pl-40 h-[35%] md:w-[50%] px-[1.5rem] z-20">
                 <h1 className="font-bold text-[44.55px] md:text-[81px] md:w-[912px] font-rubik leading-[44.55px] md:leading-[81px] md:font-extrabold">
                     GET <span className="text-myGreen pr-10 md:pr-0 underline decoration-[2px]">FREE ROBUX </span> ANYTIME ANYWHERE!
                 </h1>
@@ -13,57 +15,8 @@ export default function HeroSection() {
                     GET ME STARTED!
                 </button>
             </div>
-
-            <div className="relative md:w-[50%] md:h-[1034px] ">
-                <Image
-                    src="/hero_character.svg"
-                    width={544.95}
-                    height={543.81}
-                    className="absolute -top-[1rem] -right-[4rem] z-30 md:block md:-top-[1rem] min-w-[32rem] min-h-[33.9375rem]  md:h-[64.625rem] md:w-[64.626rem] "
-                    alt="hero"
-                />
-                <Image
-                    src="/hero_v3.svg"
-                    alt="vector"
-                    height={1006}
-                    width={749}
-                    className="absolute right-[0rem] md:left-[20rem] -top-[1rem] md:-top-[18rem] h-[38rem] md:h-[91rem] w-[37rem] md:w-[88rem] z-0"
-                />
-                <Image
-                    src="/hero_v2.svg"
-                    alt="vector"
-                    height={123}
-                    width={118}
-                    className=" absolute md:right-[8rem] md:top-[40rem] md:h-[7.7rem]  md:w-[7.37rem] z-20 "
-                />
-                <Image
-                    src="/hero_v2.svg"
-                    alt="vector"
-                    height={90}
-                    width={86.67}
-                    className=" absolute md:right-[40rem] md:top-[42rem] md:h-[5.625rem]  md:w-[5.4rem] z-20 "
-                />
-                <Image
-                    src="/hero_v2.svg"
-                    alt="vector"
-                    height={56}
-                    width={54}
-                    className=" absolute md:right-[36rem] md:top-[32rem] md:h-[3.375rem]  md:w-[3.5rem] z-20 "
-                />
-                <Image
-                    src="/hero_v2.svg"
-                    alt="vector"
-                    height={96}
-                    width={92}
-                    className=" absolute md:right-[15rem] md:top-[16rem] md:h-[6rem]  md:w-[5.75rem] z-20 "
-                />
-                <Image
-                    src="/hero_v2.svg"
-                    alt="vector"
-                    height={64}
-                    width={67}
-                    className=" absolute md:right-[16rem] md:top-[23rem] md:h-[4rem]  md:w-[4.25rem] z-20 "
-                />
+            <div className="relative text-red-900   w-[100%] md:w-[50%] md:h-[1034px] ">
+                
             </div>
 
             <div className="absolute -bottom-[5rem] w-screen h-[8rem] bg-bgColor border-t-myGreen border-t-[3px] z-30">

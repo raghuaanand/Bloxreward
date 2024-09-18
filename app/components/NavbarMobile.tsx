@@ -40,7 +40,7 @@ export default function NavbarMobile() {
                 </a>
             </div>
 
-            <Image src={'/menu.svg'} alt="menu" width={52} height={58} className="absolute left-[40%] bottom-[0%] w-[70px] h-[58px]" />
+            <Image src={'/menu.svg'} alt="menu" width={52} height={58} className="fixed left-[40%] bottom-[0%] w-[5rem] h-[5rem]" />
 
             <div className="flex w-[40%] justify-around items-center">
                 <a

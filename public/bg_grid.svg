@@ -1,18 +1,18 @@
 <svg width="1920" height="6116" viewBox="0 0 1920 6116" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g style="mix-blend-mode:overlay" clip-path="url(#clip0_1_9)">
-<rect width="2" height="6116" fill="#161C18"/>
-<rect x="239.75" width="2" height="6116" fill="#161C18"/>
-<rect x="479.5" width="2" height="6116" fill="#161C18"/>
-<rect x="719.25" width="2" height="6116" fill="#161C18"/>
-<rect x="959" width="2" height="6116" fill="#161C18"/>
-<rect x="1198.75" width="2" height="6116" fill="#161C18"/>
-<rect x="1438.5" width="2" height="6116" fill="#161C18"/>
-<rect x="1678.25" width="2" height="6116" fill="#161C18"/>
-<rect x="1918" width="2" height="6116" fill="#161C18"/>
-</g>
-<defs>
-<clipPath id="clip0_1_9">
-<rect width="1920" height="6116" fill="white"/>
-</clipPath>
-</defs>
+  <g style="mix-blend-mode:overlay; opacity: 0.2;" clip-path="url(#clip0_1_9)">
+    <rect width="2" height="6116" fill="#161C18"/>
+    <rect x="239.75" width="2" height="6116" fill="#161C18"/>
+    <rect x="479.5" width="2" height="6116" fill="#161C18"/>
+    <rect x="719.25" width="2" height="6116" fill="#161C18"/>
+    <rect x="959" width="2" height="6116" fill="#161C18"/>
+    <rect x="1198.75" width="2" height="6116" fill="#161C18"/>
+    <rect x="1438.5" width="2" height="6116" fill="#161C18"/>
+    <rect x="1678.25" width="2" height="6116" fill="#161C18"/>
+    <rect x="1918" width="2" height="6116" fill="#161C18"/>
+  </g>
+  <defs>
+    <clipPath id="clip0_1_9">
+      <rect width="1920" height="6116" fill="white"/>
+    </clipPath>
+  </defs>
 </svg>
