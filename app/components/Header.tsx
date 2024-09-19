@@ -3,8 +3,8 @@ import NavBar from "./NavBar";
 
 export default function Header() {
   return (
-    <div className="relative flex justify-center items-center md:flex">
-      <div className="mx-[2rem] h-[62px] md:h-[113px] w-full bg-white flex justify-between px-4 md:px-16 lg:px-24 items-center rounded-lg fixed top-4 md:top-5 md:w-[95%] lg:w-[90%] z-50">
+    <div className="relative flex justify-center items-center md:flex w-screen">
+      <div className=" h-[62px]  md:h-[113px] w-[90%]  bg-white flex justify-between px-4 md:px-16 lg:px-24 items-center rounded-lg fixed top-4 md:top-5 md:w-[95%] lg:w-[90%] z-50">
         {/* Logo */}
         <Image
           src="/logo.svg"

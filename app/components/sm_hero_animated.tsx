@@ -2,8 +2,11 @@ import Image from "next/image";
 
 export default function SmHeroAnimated(){
     return(
-        <div className="md:hidden relative flex ">
-            <div className="w-screen absolute -left-[11rem] z-30">
+        <div className="md:hidden relative ">
+
+
+            <Image src={'/Right_Side_Image_Mob.webp'} alt="hero character" width={544} height={543} className="absolute top-[3rem] -right-[2rem] min-w-[26rem]"/>
+            {/* <div className="w-screen absolute -left-[11rem] z-30">
                 <Image 
                     src={'/hero_character.svg'} 
                     alt="hero character" 
@@ -29,7 +32,7 @@ export default function SmHeroAnimated(){
                 width={62}
 
                 className="z-20  absolute right-[0.25rem] top-[20rem] rotate-[22deg]"
-            />
+            /> */}
 
         </div>
     )

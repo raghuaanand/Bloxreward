@@ -3,7 +3,10 @@ import SmHeroAnimated from "./sm_hero_animated";
 
 export default function HeroSection(){
     return (
-        <div className="relative h-[54.3125rem] overflow-hidden  pt-[8rem] px-[2rem] md:w-screen md:pt-[15rem] border-b-myGreen border-b-[3px]">
+        <div className="relative  h-[54.3125rem] overflow-hidden  pt-[8rem] px-[2rem] md:w-screen md:pt-[15rem] border-b-myGreen border-b-[3px] z-20">
+            <div className="absolute bg-[url('/bg_grid.svg')] min-h-[80rem] min-w-full top-0 bg-green-200 opacity-20 left-0 z-0">
+
+            </div>
             <div className="z-20 flex md:w-[50%] flex-col gap-5 md:pl-[4rem]">
 
                 <h1 className="font-extrabold text-[2.784375rem] leading-[2.794375rem] md:text-[5rem] md:leading-[5rem]">
@@ -18,7 +21,7 @@ export default function HeroSection(){
                     GET ME STARTED!
                 </button>
             </div>
-            <div className="">
+            <div className="md:w-[50%]">
                 <LgHero />
                 <SmHeroAnimated />
             </div>
